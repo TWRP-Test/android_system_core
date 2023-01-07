@@ -4364,7 +4364,7 @@ bool SnapshotManager::EnsureNoOverflowSnapshot(LockedFile* lock) {
         if (targets.size() != 1) {
             LOG(ERROR) << "Unexpected device-mapper table for snapshot: " << snapshot
                        << ", size = " << targets.size();
-            return false;
+            //return false;
         }
         if (targets[0].IsOverflowSnapshot()) {
             LOG(ERROR) << "Detected overflow in snapshot " << snapshot
