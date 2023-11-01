@@ -149,7 +149,7 @@ static bool is_extfs(const std::string& fs_type) {
 }
 
 static bool is_f2fs(const std::string& fs_type) {
-    return fs_type == "f2fs";
+    return fs_type == "f2fs" || fs_type == "mifs";
 }
 
 static std::string realpath(const std::string& blk_device) {
