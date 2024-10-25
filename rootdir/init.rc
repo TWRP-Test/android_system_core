@@ -1095,8 +1095,7 @@ on zygote-start
     exec_start update_verifier
     start statsd
     start netd
-    start zygote
-    start zygote_secondary
+    start ${ro.zygote}
 
 on boot && property:ro.config.low_ram=true
     # Tweak background writeout

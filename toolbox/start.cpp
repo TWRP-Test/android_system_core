@@ -40,14 +40,10 @@ static void ControlDefaultServices(bool start) {
         "netd",
         "surfaceflinger",
         "audioserver",
-        "zygote",
     };
 
-    // Only start zygote_secondary if not single arch.
-    std::string zygote_configuration = GetProperty("ro.zygote", "");
-    if (zygote_configuration != "zygote32" && zygote_configuration != "zygote64") {
-        services.emplace_back("zygote_secondary");
-    }
+    std::string zygote_service = GetProperty("ro.zygote", "");
+    services.emplace_back(zygote_service);
 
     if (start) {
         for (const auto& service : services) {
