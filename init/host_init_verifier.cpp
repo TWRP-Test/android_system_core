@@ -307,6 +307,7 @@ int main(int argc, char** argv) {
         for (const auto& p : partition_search_order) {
             if (partition_map.find(p) != partition_map.end()) {
                 parser.ParseConfig(partition_map.at(p) + "etc/init");
+                parser.ParseConfig(partition_map.at(p) + "etc/init/hw");
             }
         }
     } else {
