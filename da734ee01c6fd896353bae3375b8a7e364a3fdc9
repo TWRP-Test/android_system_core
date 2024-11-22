@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "95f7cddb_aaf4e7b6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2024-11-22T19:28:39Z",
+      "side": 1,
+      "message": "Like virtiofs, but another backend. This is the only supported backend in UTM VM",
+      "revId": "da734ee01c6fd896353bae3375b8a7e364a3fdc9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
