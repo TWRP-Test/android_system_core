@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "93d52833_5bcdd1f2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19282
+      },
+      "writtenOn": "2025-01-27T15:17:39Z",
+      "side": 1,
+      "message": "Fixes the issue i have with `otter` when running `m dist`.",
+      "revId": "95340bac86c167c767a8039d2993f7776b9b09fb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
