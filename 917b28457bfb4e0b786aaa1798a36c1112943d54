@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "99451d2f_0b88fbda",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19282
+      },
+      "writtenOn": "2025-02-06T18:23:34Z",
+      "side": 1,
+      "message": "Same here, this is from ASB-2025-02 but vanir reported it, so uploaded as reference.",
+      "revId": "917b28457bfb4e0b786aaa1798a36c1112943d54",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
