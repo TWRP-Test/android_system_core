@@ -222,6 +222,7 @@ cc_defaults {
     ],
     whole_static_libs: [
         "libcap",
+        "vendor_init",
     ],
     header_libs: ["bootimg_headers"],
     proto: {
