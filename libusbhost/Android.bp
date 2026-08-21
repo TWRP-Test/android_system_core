@@ -21,6 +21,7 @@ package {
 cc_library {
     name: "libusbhost",
     vendor_available: true,
+    recovery_available: true,
     host_supported: true,
     srcs: ["usbhost.c"],
     cflags: ["-Werror"],
